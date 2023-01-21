@@ -1,6 +1,7 @@
 name: cincinnati-insurance-training
 channels:
     - defaults
+    - conda-forge
 dependencies:
     - python>=3.10
     - pip>=22.1
