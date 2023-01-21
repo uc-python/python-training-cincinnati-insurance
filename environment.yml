@@ -1,0 +1,7 @@
+name: cincinnati-insurance-training
+channels:
+    - defaults
+dependencies:
+    - python>=3.10
+    - pip>=22.1
+    - nbconvert>=7.0
