@@ -1,0 +1,9 @@
+name: cincinnati-insurance-training
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python>=3.10
+    - ipykernel>=6.0
+    - pip>=22.1
+    - nbconvert>=7.0
