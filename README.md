@@ -43,3 +43,18 @@ Intro to Python training developed for, and delivered to, Cincinnati Insurance
 - Ethan Swan -- [@eswan18](https://github.com/eswan18)
 - Jay Cunningham -- [@cunningjames](https://github.com/cunningjames)
 - Gus Powers -- [@augustopher](https://github.com/augustopher)
+
+## Setup
+
+We write our code with VSCode in this course, which you can download from the [Visual Studio website](https://code.visualstudio.com/download).
+
+While it's possible to install and use Python in many different ways, we prefer the Anaconda distribution for setting up data science environments.
+You can download it from the [Anaconda website](https://www.anaconda.com/products/distribution).
+The "Graphical Installer" is easiest to use.
+
+Once you have Anaconda downloaded, you should set up a new environment using the `environment.yml` file present in this repository.
+Anaconda ships with a program called Anaconda Navigator, which allows you to do this.
+Open it (you can lauch it however you typically start applications), click on the "Environments" tab in the leftmost pane, and click Import at the bottom of the second pane.
+In the dialog that follows, opt to use a file from your "Local drive" and then navigate to select the `environment.yml` file in this project folder.
+
+If you have trouble getting set up, we can help you out in class.
