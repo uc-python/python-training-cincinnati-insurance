@@ -1,12 +1,15 @@
 # python-training-cincinnati-insurance
+
 Intro to Python training developed for, and delivered to, Cincinnati Insurance
 
 ## Objectives
+
 1. Build familiarity with the Python language, so that students can solve simple problems with code.
 2. Gain experience with data wrangling tasks: importing/exporting, filtering & selecting, aggregating, and joining data.
 3. Establish a mental model of the Python data science ecosystem to enable learning beyond this course.
 
 ## Agenda
+
 | Day       | Topic                                                                          |     Time      |
 | :--------:| :----------------------------------------------------------------------------- | :-----------: |
 | __Day 1__ | Introductions                                                                  |  1:00 - 1:15  |
@@ -33,3 +36,10 @@ Intro to Python training developed for, and delivered to, Cincinnati Insurance
 |           | Python from the Shell                                                          |  1:45 - 2:30  |
 |           | Case Study, pt. 2                                                              |  2:30 - 3:45  |
 |           | Case Study Review; Concluding Remarks                                          |  3:45 - 4:30  |
+
+## Instructors
+
+- Brad Boehmke -- [@bradleyboehmke](https://github.com/bradleyboehmke)
+- Ethan Swan -- [@eswan18](https://github.com/eswan18)
+- Jay Cunningham -- [@cunningjames](https://github.com/cunningjames)
+- Gus Powers -- [@augustopher](https://github.com/augustopher)
