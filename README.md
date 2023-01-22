@@ -1,6 +1,11 @@
 # python-training-cincinnati-insurance
 Intro to Python training developed for, and delivered to, Cincinnati Insurance
 
+## Objectives
+1. Build familiarity with the Python language, so that students can solve simple problems with code.
+2. Gain experience with data wrangling tasks: importing/exporting, filtering & selecting, aggregating, and joining data.
+3. Establish a mental model of the Python data science ecosystem to enable learning beyond this course.
+
 ## Agenda
 | Day       | Topic                                                                          |     Time      |
 | :--------:| :----------------------------------------------------------------------------- | :-----------: |
