@@ -13,8 +13,8 @@ jupyter nbconvert --to slides <notebookname.ipynb> --output-dir=../slides
 
 ## CI Overview
 
-All ipynb files in the `notebooks` directory are run through Papermill (in GitHub Actions) to make sure they don't have errors.
+In GitHub Actions, all ipynb files in the `notebooks` directory are run through Papermill to make sure they don't have errors.
 
 However, sometimes it's *useful* to include a code call that results in an error -- to demonstrate a sample exception, or to show why a certain approch is wrong.
 To do that without breaking CI, add a metadata tag `ci-skip` to the code cell.
-Cells with this tag are automatically removed from the notebook before CI runs (via the `prep_nb_for_ci.py` script.
+Cells with this tag are automatically removed from the notebook before CI runs (via the `prep_nb_for_ci.py` script).
