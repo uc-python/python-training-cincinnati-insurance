@@ -3,7 +3,7 @@ IMAGESOUT=$(patsubst notebooks/%,slides/%,$(IMAGESIN))
 NBFILES=$(wildcard notebooks/*-*.ipynb)
 HTMLFILES=$(patsubst notebooks/%.ipynb,slides/%.slides.html,$(NBFILES))
 
-slides: images html
+slides: html
 
 images: $(IMAGESOUT)
 
@@ -11,7 +11,7 @@ $(IMAGESOUT): slides/images/%: notebooks/images/%
 	mkdir -p slides/images
 	cp $< $@
 
-html: $(HTMLFILES)
+html: images $(HTMLFILES)
 
 $(HTMLFILES): slides/%.slides.html: notebooks/%.ipynb
 	bash scripts/generate_slides.sh $<
