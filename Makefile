@@ -11,7 +11,7 @@ slides/images:
 	mkdir -p slides/images
 
 $(IMAGESOUT): slides/images/%: notebooks/images/%
-	cp $< $@
+	cp -a $< $@
 
 html: images $(HTMLFILES)
 
