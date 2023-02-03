@@ -5,10 +5,12 @@ HTMLFILES=$(patsubst notebooks/%.ipynb,slides/%.slides.html,$(NBFILES))
 
 slides: html
 
-images: $(IMAGESOUT)
+images: slides/images $(IMAGESOUT)
+
+slides/images:
+	mkdir -p slides/images
 
 $(IMAGESOUT): slides/images/%: notebooks/images/%
-	mkdir -p slides/images
 	cp $< $@
 
 html: images $(HTMLFILES)
