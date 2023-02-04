@@ -11,9 +11,6 @@ If you want to just build slides for a single notebook, you can call `nbconvert`
 jupyter nbconvert --to slides <notebookname.ipynb> --output-dir=../slides
 ```
 
-*n.b.* There seems to be a bug in the `make slides` directive and it sometimes reports "Nothing to be done for `slides'."
-Run `make clean && make slides` instead to fix the problem.
-
 ## Notebook Naming Convention
 
 In order to keep notebooks ordered, we prefix them with a 2-digit "code" indicating where in the sequence they fall.
